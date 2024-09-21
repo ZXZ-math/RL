@@ -1,0 +1,9 @@
+
+saving to ./runs/DQN/run16
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+Episode: 1: Time: 12.894140005111694 Total Reward: -37.30769230769278 Avg_Loss: 0.800333559513092
+Episode: 2: Time: 11.43039059638977 Total Reward: -40.25547445255499 Avg_Loss: 0.8736013770103455
+Episode: 3: Time: 11.063173532485962 Total Reward: -34.28571428571466 Avg_Loss: 0.8375214338302612
+Episode: 4: Time: 12.08466911315918 Total Reward: -24.292929292929372 Avg_Loss: 0.882283091545105
+Episode: 5: Time: 11.730547904968262 Total Reward: -21.056338028169286 Avg_Loss: 0.9086472392082214

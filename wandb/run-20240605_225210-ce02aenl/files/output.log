@@ -1,0 +1,18 @@
+
+saving to ./runs/DQN/run17
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+Episode: 1: Time: 12.874109983444214 Total Reward: -37.30769230769278 Avg_Loss: 0.800333559513092
+Episode: 2: Time: 11.341104507446289 Total Reward: -40.25547445255499 Avg_Loss: 0.8736013770103455
+Episode: 3: Time: 11.216156959533691 Total Reward: -34.28571428571466 Avg_Loss: 0.8375214338302612
+Episode: 4: Time: 12.361587524414062 Total Reward: -24.292929292929372 Avg_Loss: 0.882283091545105
+Episode: 5: Time: 11.584611415863037 Total Reward: -21.056338028169286 Avg_Loss: 0.9086472392082214
+Episode: 6: Time: 11.335814952850342 Total Reward: 46.2213740458004 Avg_Loss: 1.0391802787780762
+Episode: 7: Time: 11.679981708526611 Total Reward: -36.40625000000067 Avg_Loss: 1.132879614830017
+Episode: 8: Time: 11.575741529464722 Total Reward: 57.173913043481804 Avg_Loss: 1.422548770904541
+Episode: 9: Time: 8.411662817001343 Total Reward: -1.32121212120947 Avg_Loss: 1.719523549079895
+Episode: 10: Time: 10.245448350906372 Total Reward: -111.83660130719021 Avg_Loss: 5.921656131744385
+Episode: 11: Time: 11.481628656387329 Total Reward: 56.62454873646607 Avg_Loss: 10.576932907104492
+Episode: 12: Time: 12.043477773666382 Total Reward: 134.6072507552884 Avg_Loss: 8.430904388427734
+Episode: 13: Time: 12.195180654525757 Total Reward: 133.66894197952263 Avg_Loss: 8.229524612426758
+Episode: 14: Time: 6.6659040451049805 Total Reward: -135.3610169491527 Avg_Loss: 484.2306823730469
